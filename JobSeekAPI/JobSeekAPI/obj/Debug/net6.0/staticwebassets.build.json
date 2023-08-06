@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "UjldaDUsaMnOP+uEXxnjr0D0Ad+ZHIvril1tUECc1IA=",
+  "Source": "JobSeekAPI",
+  "BasePath": "_content/JobSeekAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "JobSeekAPI\\wwwroot",
+      "Source": "JobSeekAPI",
+      "ContentRoot": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\",
+      "BasePath": "_content/JobSeekAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\Css\\bootstrap.min.css",
+      "SourceId": "JobSeekAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\",
+      "BasePath": "_content/JobSeekAPI",
+      "RelativePath": "Css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\Css\\bootstrap.min.css.map",
+      "SourceId": "JobSeekAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\",
+      "BasePath": "_content/JobSeekAPI",
+      "RelativePath": "Css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\Css\\MyCss.css",
+      "SourceId": "JobSeekAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\",
+      "BasePath": "_content/JobSeekAPI",
+      "RelativePath": "Css/MyCss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\MyCss.css"
+    },
+    {
+      "Identity": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\Js\\javascrept.js",
+      "SourceId": "JobSeekAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HABIB\\Desktop\\hsdcsacik\\JobSeekAPI\\JobSeekAPI\\wwwroot\\",
+      "BasePath": "_content/JobSeekAPI",
+      "RelativePath": "Js/javascrept.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\javascrept.js"
+    }
+  ]
+}

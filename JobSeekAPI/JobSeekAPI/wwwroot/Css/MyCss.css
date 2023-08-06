@@ -1,0 +1,364 @@
+html {
+    height: -webkit-fill-available;
+}
+
+/*---------------------*/
+/* Main Page ----------*/
+/*---------------------*/
+
+/* Nav bar */
+.Startpage {
+    height: 100%;
+}
+
+#NavId {
+    height: 75px;
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+    border-bottom: gray 5px;
+    opacity: 0.4;
+}
+
+#TitleId {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fce91b;
+}
+
+/* Home Image */
+
+.HomeImage {
+    height: 100%;
+    display: flex;
+    background-image: url('https://wallpapercave.com/wp/wp3460662.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+#homeBtn {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fce91b;
+    border: #fce91b;
+}
+
+#homeBtn:hover {
+    transition: 0.3s;
+    color: #fce91b;
+    width: 210px;
+    height: 65px;
+    background-color: #262A29;
+    border-style: groove;
+}
+
+
+
+.lblsize {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+/*---------------------*/
+/* Login Page ----------*/
+/*---------------------*/
+
+
+
+.signup-body {
+    background-image: url('https://th.bing.com/th/id/R.93103e4ec728c30ee75802a226404241?rik=ETrt16bjs2Ez0A&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    width: 50%;
+    min-width: 530px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://th.bing.com/th/id/R.dd19926ff7ae757a14022d21d1c5bb2c?rik=Aso587yzg06GNw&pid=ImgRaw&r=0');
+    background-size: cover;
+    border: 1px rgba(255, 255, 255, 0.5) dashed;
+    border-radius: 15px;
+}
+
+.container h2 {
+    color: #FCE91B;
+    font-weight: bold;
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 7%;
+
+}
+
+.container .container-fluid {
+    width: 50%;
+    max-width: 600px;
+    min-width: 450px;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(1, 1, 1, 0.4);
+    border: 1px white solid;
+    border-radius: 15px;
+    padding: 30px 10px 0 10px;
+    position: absolute;
+    right: 10%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.form-item-username {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.BirthDate {
+    color: white;
+    font-size: x-large;
+    position: relative;
+    left: -30%;
+    transform: translate(50%, 50%);
+    margin: 15px;
+}
+
+::-webkit-calendar-picker-indicator {
+    margin-right: 10px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 3px #fce91b solid;
+}
+
+.Gender {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Gender input:checked {
+    
+    border: 5px #FCE91B solid;
+}
+
+.form-item-username input {
+    height: 60px;
+    width: 50%;
+    font-size: 20px;
+    border: #FCE91B solid;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: floralwhite;
+    margin: 10px;
+}
+
+.form-item input {
+    height: 60px;
+    width: 70%;
+    font-size: 20px;
+    border: #FCE91B solid;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: floralwhite;
+    margin: 10px;
+    padding-right: 10px;
+}
+
+.form-item input:focus,
+.form-item-username input:focus {
+    outline: gray;
+    outline-style: solid;
+    border: none;
+}
+
+.pwd-format {
+    color: white;
+    padding: 5px;
+    border: 2px rgba(255, 255, 255, 0.5) solid;
+    border-radius: 10px;
+    display: none;
+    margin: 0;
+    position: relative;
+    top: -3px;
+    right: -120px;
+    z-index: 3;
+}
+
+.form-btns {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.signup {
+    width: 80%;
+    height: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(1, 1, 1, 0.8);
+    background-color: #fce91b;
+    border: 1px gray solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.NextBtn {
+    width: 65%;
+    height: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(1, 1, 1, 0.8);
+    background-color: #fce91b;
+    border: 1px gray solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.BackBtn {
+    width: 30%;
+    height: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(1, 1, 1, 0.8);
+    background-color: #fce91b;
+    border: 1px gray solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.form-btns .signup:hover,
+.NextBtn:hover {
+    transition: 0.5s;
+    width: 70%;
+    height: 65px;
+    background-color: #262A29;
+    color: #fce91b;
+    border: #fce91b solid;
+    border-width: 1px;
+}
+
+.BackBtn:hover {
+    transition: 0.5s;
+    width: 40%;
+    height: 65px;
+    background-color: #262A29;
+    color: #fce91b;
+    border: #fce91b solid;
+    border-width: 1px;
+}
+
+.form-btns button:disabled,
+.NextBtn:disabled {
+    cursor: not-allowed;
+    background: #8f8b85 !important;
+    color: rgb(131, 120, 120) !important;
+}
+
+.accept-box {
+    display: flex;
+    align-items: baseline;
+    font-size: 15px;
+
+}
+
+.accept-box input {
+    margin-right: 5px;
+}
+
+p,
+.options {
+    color: #BDBDBD;
+}
+
+.options {
+    margin-bottom: 5px;
+}
+
+.container a {
+    color: #BDBDBD;
+    font-size: 20px;
+}
+
+.container a:hover {
+    color: gray;
+}
+
+.copyright {
+    width: 100%;
+    margin-top: 35px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: -50px;
+    padding: 0 0 20px 100px;
+}
+
+@media(max-width:768px) {
+
+    .HomeImage2 {
+        width: 100%;
+        justify-content: start;
+        padding-top: 150px;
+    }
+
+    .container .container-fluid {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media(max-width:568px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .container-fluid {
+        width: 100%;
+    }
+}
